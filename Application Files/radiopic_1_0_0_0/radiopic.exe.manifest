@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="radiopic.exe" version="1.0.0.0" publicKeyToken="bbf8d8565d0585b5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="radiopic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="radiopic.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="radiopic.exe" size="54760">
+      <assemblyIdentity name="radiopic" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rGniYoO26khfz05BTLFsSSKwd4Awjk2gHykBG2bbKqY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="radiopic.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-PIH2Q9K\Marcos" issuerKeyHash="b79c9071574552d15f4c07669d8812bf6de7e35d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Pc5ym3FVg+7AinjEIbp1vZ4Cg3pzuGU4BtYJwhAbC+c=</DigestValue></Reference></SignedInfo><SignatureValue>LotJE3J2+qztfLp6WMZF5cmQxtImDwNar0KeDULaYz+6wwzW9Hl/1u5XPGSD7IAJK8HVneG9wiUqQEyLUCB9evhJO6Hcohsd66MnNVKe+ksaKGWTonQrt9l7xdUqeLk4K+2b1p2uSVHyh9BXsPbc9F2T94w74V06lJXmITLjda8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tIo3HQb+To3olzePe8JDN9DXGp0N04CiySDWVomPmW91qdyofCZklJq0VnF711HqLQDgE7ZLmAiXNXRcdTqTFDPzlAB/uy9dumwbvCpEzuqm6CtFV92YJ3M46PeuAVkvMwbW4CMq7Mj98CP0qdpKIW45jcMitUEDzAmfWbI5EU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e70b1b10c209d6063865b8737a83029ebd75ba21c4788ac0ee8355719b72ce3d" Description="" Url=""><as:assemblyIdentity name="radiopic.exe" version="1.0.0.0" publicKeyToken="bbf8d8565d0585b5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-PIH2Q9K\Marcos</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BK7/xT+SuqCS9+YBFr3EZLVk9s69l7obZJtfQj7EQgs=</DigestValue></Reference></SignedInfo><SignatureValue>o0f8/DyqWAIRv8zj7S4OXh7mzuoNPBeZDS1RiH6PqfUmBbj7T+30fJfnXj2LdwFmVeYJC3njjUCLjy7yJx7kGXWvYSEWhKhZPXKYglHD6ZzEC1UajdRweJN6k9H768XeKW32Raz7se5lMYNaSyiplPzNlJrR+JyW3SiXPMtWtY8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tIo3HQb+To3olzePe8JDN9DXGp0N04CiySDWVomPmW91qdyofCZklJq0VnF711HqLQDgE7ZLmAiXNXRcdTqTFDPzlAB/uy9dumwbvCpEzuqm6CtFV92YJ3M46PeuAVkvMwbW4CMq7Mj98CP0qdpKIW45jcMitUEDzAmfWbI5EU0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQJbmmil5Hho5AzMLgALtySzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAFAASQBIADIAUQA5AEsAXABNAGEAcgBjAG8AczAeFw0yNDA2MTcxNzEzNThaFw0yNTA2MTcyMzEzNThaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AUABJAEgAMgBRADkASwBcAE0AYQByAGMAbwBzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0ijcdBv5OjeiXN497wkM30NcanQ3TgKLJINZWiY+Zb3Wp3Kh8JmSUmrRWcXvXUeotAOATtkuYCJc1dFx1OpMUM/OUAH+7L126bBu8KkTO6qboK0VX3Zgnczjo964BWS8zBtbgIyrsyP3wI/Sp2kohbjmNwyK1QQPMCZ9ZsjkRTQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAF8FzNuKSMfLrOX3UvGqK1Xd92aeATTbi9nwiVx5sEbzh42TSzYAp0LV0lz9xM8NnvNWYlNL6p49IDQqBMvi/qa58W+FDs4XcNqnq3zK2hSqTh5V1qQRhzKs28S5wmI9R0kMMdHtx/LYh7U2XufJSRoa5P8Z8JZf5v0c5JMxT5ti</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
